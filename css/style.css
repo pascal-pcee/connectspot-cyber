@@ -427,3 +427,142 @@ footer {
         font-size: 30px;
     }
 }
+/* ==============================
+   ABOUT US PAGE
+   ============================== */
+
+.page-hero {
+    background: linear-gradient(135deg, #0066cc, #00a86b);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.page-hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.page-hero p {
+    font-size: 18px;
+}
+
+
+/* About Section */
+
+.about-section {
+    padding: 70px 8%;
+    background: #f5f9fc;
+}
+
+.about-content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-text h2 {
+    color: #0066cc;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+
+/* Why Choose Us Card */
+
+.about-card {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h3 {
+    color: #0066cc;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-card li {
+    margin-bottom: 15px;
+    color: #444;
+    line-height: 1.5;
+}
+
+
+/* Mission and Vision */
+
+.mission-section {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 60px 8%;
+    background: white;
+}
+
+.mission-card {
+    width: 45%;
+    padding: 35px;
+    background: #f5f9fc;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.mission-card h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+}
+
+.mission-card p {
+    color: #555;
+    line-height: 1.8;
+}
+
+
+/* About Page Mobile Design */
+
+@media (max-width: 768px) {
+
+    .page-hero h1 {
+        font-size: 32px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .mission-section {
+        flex-direction: column;
+        padding: 40px 8%;
+    }
+
+    .mission-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
